@@ -259,8 +259,12 @@ function bing_load (index) {
     }
     // 加载 bing
     const bing_url = "https://cn.bing.com" + bing_data["data"][index_num]["url"];
+    const bing_url1 = "https://t.mwm.moe/fj";
+
     // 加载图片
-    document.getElementById('bing').src = bing_url;
+    //document.getElementById('bing').src = bing_url;
+    document.getElementById('bing').src = bing_url1;
+
 
 }
 
